@@ -18,7 +18,7 @@ function Color(){
         Black
         </button> 
 
-        <p>{`you have cicked on:${color}`}</p>
+        <p>{`you have cicked on:`}<span className={color}>{color}</span></p>
 
         </>
     );
